@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/optionlogout"
+        
+        android:title="Logout"/>
+    <item
+        android:id="@+id/optionPass"
+        
+        android:title="Change Password"/>
+
+
+
+
+</menu>

@@ -1,0 +1,17 @@
+<html>
+<body>
+<?php 
+
+?>
+Select Branch: 
+ <select name='branch'>
+  <option value="cs" >C.S</option>
+  <option value="it">I.T</option>
+  <option value="mechanical">Mechanical</option>
+  <option value="civil">Civil</option>
+  <option value="civil">Civil</option>
+ </select>
+ 
+
+</body>
+</html>

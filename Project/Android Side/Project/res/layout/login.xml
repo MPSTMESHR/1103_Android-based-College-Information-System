@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/login_layout">
+
+    <EditText
+        android:id="@+id/editTextSap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="50dp"
+        android:ems="10" 
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:hint="Enter SAP"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_alignRight="@+id/editTextSap"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginTop="23dp"
+        android:text="Login" 
+         android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextSap"
+        android:layout_below="@+id/editTextSap"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:hint="Enter Password" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextPass"
+        android:layout_centerVertical="true"
+        android:text="Save Password" 
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
